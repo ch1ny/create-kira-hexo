@@ -17,4 +17,4 @@ With pnpm:
 pnpm create kira-hexo my-blog
 ```
 
-关于本主题的使用说明，请参阅 [使用说明](https://hexo.kira.host/) 哦！
+关于本主题的使用说明，请参阅 [使用说明](https://kira.host/hexo/) 哦！

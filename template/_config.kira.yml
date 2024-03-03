@@ -1,21 +1,23 @@
-avatar: https://assets.kira.host/Pictures/Others/20220922230447.jpg # 网站 Logo
+avatar: https://kira.host/assets/Pictures/Others/20220922230447.jpg # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
-    path: https://assets.kira.host/Pictures/Others/-f0d5cc34c6e5aa7_compressed.jpg
+    path: https://kira.host/assets/Pictures/Others/-f0d5cc34c6e5aa7_compressed.jpg
     width: 1280
     height: 720
 favicon:
-    href: https://assets.kira.host/Pictures/Others/116359b4ccf19917.jpg # 网站图标
+    href: https://kira.host/assets/Pictures/Others/116359b4ccf19917.jpg # 网站图标
     type: image/png # 图标类型，可能的值有(image/png, image/vnd.microsoft.icon, image/x-icon, image/gif)
 
-# 附加图标库 使用说明：https://hexo.kira.host/config/icon.html
-iconlib: //at.alicdn.com/t/font_3299330_el19bsi97h8.css
+# 附加图标库 使用说明：https://kira.host/hexo/config/icon.html
+# iconlib: //at.alicdn.com/t/font_3299330_el19bsi97h8.css
 
-cdn:
+cdn: # 这里可以修改站点使用的库的CDN
     gitalk:
         css: https://unpkg.com/gitalk@latest/dist/gitalk.css
         js: https://unpkg.com/gitalk@latest/dist/gitalk.min.js
+    giscus:
+        js: https://giscus.app/client.js
 
-# beian: 赣ICP备2021007955号-3 # 备案号（选填）
+# beian: 赣ICP备2021007955号-3 # 备案号（选填，别往你们网站上挂我的备案号！！！）
 
 menu:
     回到首页:
@@ -100,6 +102,18 @@ gitalk:
     clientID: -id- # GitHub Client ID
     clientSecret: -key- # GitHub Client Secret
     title: '' # Gitalk Issue Title
+# 你们不要在这里填我的 giscus 配置项，不然你们博客下的评论会全部跑到我的仓库下面……
+# https://giscus.app/zh-CN 可以在这个网站上手动选择配置填到下方对应位置
+giscus:
+    active: true # 是否启用 giscus
+    repo: -your github username-/-your giscus repo- # 存放评论的 discus 所在的 repo
+    repoID: -your giscus repo ID- # GitHub repo ID
+    category: Announcements # 选择新 discussions 所在的分类
+    categoryID: -giscus category id- # 分类 ID
+    mapping: pathname # pathname, url, title, og:title, specific, number
+    # term: # abc 123 # specific | number
+    theme: light
+    lang: en
 
 copyright: '<strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可'
 copyTip: "著作权归作者所有。\n商业转载请联系作者获得授权，非商业转载请注明出处。\n来源：%url" # 自定义复制版权文案,使用 %url 代替当前页面URL, 修改为false禁用

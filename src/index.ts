@@ -71,7 +71,7 @@ const copyTemplate = async (targetDir: string) => {
 	console.log(chalk.green('Ciallo~ ( ∠·ω< )⌒★ 博客初始化完成辣！'));
 	console.log(
 		chalk.white('kira-hexo 使用文档请访问'),
-		chalk.cyan('https://hexo.kira.host/'),
+		chalk.cyan('https://kira.host/hexo/'),
 		chalk.white('哦！')
 	);
 };

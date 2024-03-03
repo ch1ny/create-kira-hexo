@@ -1,6 +1,6 @@
 {
 	"name": "create-kira-hexo",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"bin": {
 		"create-kira-hexo": "bin/index"
 	},
@@ -16,7 +16,7 @@
 		"type": "git",
 		"url": "https://github.com/ch1ny/kira-hexo.git"
 	},
-	"homepage": "https://hexo.kira.host/",
+	"homepage": "https://kira.host/hexo/",
 	"bugs": {
 		"url": "https://github.com/ch1ny/kira-hexo/issues"
 	},
